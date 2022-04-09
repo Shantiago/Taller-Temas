@@ -1,4 +1,66 @@
 body{
-    background-color: rgb(104, 191, 231);
+    background-color: rgb(153, 216, 245);
   
+}
+
+header{
+margin-top: 2%;
+
+}
+
+.titulo{
+    color: #000000;
+    border: #000000;
+    margin-left: 2%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.menu{
+float: right;
+margin-right: 5%;
+
+}
+
+button{
+    font-weight:600;
+    font-size:20px;
+    color:#ffffff;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:#00a2ff;
+    border-radius: 10%;
+
+}
+.active{
+
+    float: right; 
+    color: #000000;
+    font-size: 50px;
+    font-family: sans-serif
+
+ 
+
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.formulario{
+margin-left: 2%;
+font-family: sans-serif;
+font-weight: bold;
+text-align: center;
+
+}
+
+.eliminar{
+    text-align: center;
+}
+
+.boton{
+    margin-top: 2%;
 }
