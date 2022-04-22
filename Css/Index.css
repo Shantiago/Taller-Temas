@@ -64,3 +64,16 @@ text-align: center;
 .boton{
     margin-top: 2%;
 }
+
+details{
+    background: #00a2ff;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+summary{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+}
