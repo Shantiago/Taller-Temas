@@ -33,6 +33,7 @@ button{
     padding-right:30px;
     background-color:#00a2ff;
     border-radius: 10%;
+    cursor: pointer;
 
 }
 .active{
@@ -73,7 +74,12 @@ details{
     font-family: sans-serif;
 }
 summary{
+    
     cursor: pointer;
     font-family: sans-serif;
     font-weight: bold;
+}
+
+a{
+color: rgb(255, 255, 255);
 }

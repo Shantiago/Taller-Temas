@@ -14,15 +14,16 @@
         <section class="formulario">
             <a class="titulo">Crear - Modificar</a>
             <p>Codigo:</p>
-            <input type="text">
+            <input id="cod" onkeypress=" return numeros(event)">
             <p>Descripción:</p>
-            <input type="text">
+            <input id="desc" type="text">
             <p>Fecha Registro:</p>
-            <input type="text">
+            <input id="f_reg" type="text">
             <p>Fecha modificación:</p>
-            <input type="text">
+            <input id="f_mod" type="text">
             <br>
-            <button class="boton" onclick="window.location.href='index.html'">+ Guardar</button>
+            <button class="boton" onclick="guardar()">+ Guardar</button>
+
 
         </section>
 
@@ -30,5 +31,6 @@
 
     </header>
     
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
